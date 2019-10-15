@@ -9,15 +9,18 @@
 import SwiftUI
 
 struct DetailsView: View {
+    var name: String
+    var park: String
+    var state: String
     var body: some View {
          VStack(alignment: .leading) {
-                   Text("Turtle Rock")
+                   Text(name)
                        .font(.title)
                    HStack {
-                       Text("Joshua Tree National Park")
+                       Text(park)
                            .font(.subheadline)
                        Spacer()
-                       Text("California")
+                       Text(state)
                            .font(.subheadline)
                    }
                }
@@ -27,6 +30,6 @@ struct DetailsView: View {
 
 struct DetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailsView()
+        DetailsView(name: "Testing", park: "Testing", state: "Testing2")
     }
 }
