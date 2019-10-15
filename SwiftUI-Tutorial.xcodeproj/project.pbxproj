@@ -17,6 +17,7 @@
 		4F76F65D23558A5000267270 /* SwiftUI_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76F65C23558A5000267270 /* SwiftUI_TutorialUITests.swift */; };
 		4F76F66B2355991800267270 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76F66A2355991800267270 /* CircleImage.swift */; };
 		4F76F66D23559A8F00267270 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76F66C23559A8F00267270 /* MapView.swift */; };
+		4F76F66F23559CBD00267270 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76F66E23559CBD00267270 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4F76F65E23558A5000267270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F76F66A2355991800267270 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		4F76F66C23559A8F00267270 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4F76F66E23559CBD00267270 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				4F76F63A23558A4C00267270 /* AppDelegate.swift */,
 				4F76F63C23558A4C00267270 /* SceneDelegate.swift */,
+				4F76F66E23559CBD00267270 /* DetailsView.swift */,
 				4F76F63E23558A4C00267270 /* ContentView.swift */,
 				4F76F66A2355991800267270 /* CircleImage.swift */,
 				4F76F66C23559A8F00267270 /* MapView.swift */,
@@ -278,6 +281,7 @@
 				4F76F66D23559A8F00267270 /* MapView.swift in Sources */,
 				4F76F63D23558A4C00267270 /* SceneDelegate.swift in Sources */,
 				4F76F63F23558A4C00267270 /* ContentView.swift in Sources */,
+				4F76F66F23559CBD00267270 /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
